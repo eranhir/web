@@ -1,0 +1,15 @@
+.btn{
+    padding: 10px 20px;
+    border: 3px solid transparent;
+    background: var(--HP-primary-color);
+    color: var(--txt-color);
+    border-radius: 2px;
+    text-decoration-line: none;
+    font-family: Aharoni;
+    
+}
+
+.btn:hover{
+    background: var(--HP-secondary-color);
+    transition: background 200ms linear 100ms;
+}

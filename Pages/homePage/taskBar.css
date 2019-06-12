@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: 150px;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--HP-primary-color);
+    
+    position: relative;
+    bottom: 115px;
+    
+    border: transparent;
+    border-radius: 2px;
+    
+    font-family: Aharoni;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: var(--txt-color);
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: var(--HP-secondary-color);
+    transition: background 100ms linear 50ms;
+}
+
+#aboutBar {
+    background-color: #432730;
+}

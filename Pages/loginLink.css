@@ -1,0 +1,21 @@
+#loginIcon{
+    color: var(--HP-primary-color);
+    font-size: 60px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+#loginIcon:hover{
+    color: var(--HP-secondary-color);
+    transition:  100ms linear 50ms;
+}
+
+#loginText{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    margin: 3px;
+    font-size: 20px;
+    font-family: Aharoni;
+}

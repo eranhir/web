@@ -1,0 +1,49 @@
+.bg-text{
+    background: var(--txt-color);
+    margin: 100px 400px;
+}
+
+.container {
+    position: relative;
+    width: var(--HP-imgBate-size) ;
+}
+
+.image {
+    opacity: 1;
+    backface-visibility: hidden;
+}
+
+.price {
+    opacity: 0;
+    transition: .5s ease;
+    
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.container:hover .image {
+    transition: .5s ease;
+    filter: drop-shadow(16px 16px 5px gray);
+}
+
+.container:hover .price {
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.textHover {
+    background-color: var(--HP-primary-color);
+    color: var(--txt-color);
+    font-size: 24px;
+    text-align: center;
+    padding: 7px;
+}
+
+.imgBateText{
+    position: relative;
+    left:  50%;
+    max-width: 50%;
+    text-align: center;
+    font-family: Aharoni;
+}

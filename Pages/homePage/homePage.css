@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-image: url("https://wallpapersite.com/images/pages/pic_h/1917.jpg");
+    background-size: cover;
+    color: var(--txt-color);
+    font-family: Algerian;
+    height: 150px;
+    
+}
+
+body{
+    background-image: url("http://www.yo-yoo.co.il/rekaim/images/uploads/f38641.jpg");
+    background-size: cover;
+}
+
+h1{
+    position: relative;
+    top: 22px;
+    font-size: 40px;
+}
+
