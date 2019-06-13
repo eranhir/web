@@ -29,7 +29,6 @@ h1{
 }
 
 footer{
-    height: 150px;
     position: relative;
     text-align: center;
     top: 8em;
@@ -44,3 +43,25 @@ footer{
     object-fit: cover;
     margin: auto 150px;
 }
+
+.footerImg:hover{
+    transition: .5s ease;
+    transform: scale(1.1);
+}
+
+.theCrew{
+    position: relative;
+    top: -125px;
+    text-align: center;
+    font-size: 75px;
+    font-family: "Calibri";
+}
+
+.copyright{
+    position: relative;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: "Calibri Light";
+}
+
