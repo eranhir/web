@@ -34,3 +34,8 @@ li a:hover {
 #aboutBar {
     background-color: #432730;
 }
+#homeBtn{
+    width: 21px;
+    padding: 0px;
+    margin: -5px;
+}
