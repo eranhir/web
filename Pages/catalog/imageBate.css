@@ -1,0 +1,58 @@
+.bg-text{
+    background: var(--txt-color);
+    margin: 50px auto;
+    width: 60%;
+}
+
+.imgContainer {
+    position: relative;
+    height: var(--HP-imgBate-size);
+    width: var(--HP-imgBate-size) ;
+}
+
+.ProductImage {
+    opacity: 1;
+    width: 100%;
+}
+
+.price {
+    opacity: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+.productTitle {
+    position: relative;
+    width: 500px;
+    right: -174px;
+    top: -162px;
+    font-family: Calibri;
+}
+.productDesc{
+    position: absolute;
+    top: 20px;
+    right: -700px;
+    left: 175px;
+    font-family: "Calibri Light";
+    
+}
+.imgContainer:hover .ProductImage {
+    transition: .5s ease;
+    filter: grayscale(0.8);
+    /*filter: drop-shadow(16px 16px 5px gray);*/
+}
+
+.imgContainer:hover .price {
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.textHover {
+    background-color: var(--primary-color);
+    color: var(--txt-color);
+    font-size: 12px;
+    text-align: center;
+    padding: 7px;
+}

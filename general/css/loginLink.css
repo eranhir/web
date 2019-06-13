@@ -1,12 +1,12 @@
 #loginIcon{
-    color: var(--HP-primary-color);
+    color: var(--primary-color);
     font-size: 60px;
     position: fixed;
     bottom: 50px;
     right: 50px;
 }
 #loginIcon:hover{
-    color: var(--HP-secondary-color);
+    color: var(--secondary-color);
     transition:  100ms linear 50ms;
 }
 

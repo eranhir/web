@@ -1,9 +1,9 @@
 ul {
     list-style-type: none;
-    margin: 150px;
+    margin: 150px 300px;
     padding: 0;
     overflow: hidden;
-    background-color: var(--HP-primary-color);
+    background-color: var(--primary-color);
     
     position: relative;
     bottom: 115px;
@@ -27,11 +27,11 @@ li a {
 }
 
 li a:hover {
-    background-color: var(--HP-secondary-color);
+    background-color: var(--secondary-color);
     transition: background 100ms linear 50ms;
 }
 
-#aboutBar {
+#RightBar {
     background-color: #432730;
 }
 #homeBtn{

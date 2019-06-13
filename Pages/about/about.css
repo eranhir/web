@@ -14,7 +14,11 @@ body{
     background-attachment: fixed;
     margin: 0px;
 }
-
+.desc{
+    font-family: "Calibri Light";
+    margin: 30px;
+    margin-top: 0px;
+}
 #title{
     height: 100px;
     position: relative;
