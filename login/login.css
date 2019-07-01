@@ -1,3 +1,7 @@
+#loginIcon{
+    z-index: 4;
+}
+
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
@@ -31,7 +35,7 @@ button:hover {
     background-color: var(--primary-color);
 }
 
-/* Center the ProductImage and position the close button */
+/* Center the product-image and position the close button */
 .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;

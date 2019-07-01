@@ -15,5 +15,9 @@ z-index: 3;
 body{
     background-attachment: fixed;
     background-image: url("http://www.wallpaperbetter.com/wallpaper/623/6/393/purple-sunset-scenery-sea-beach-sky-building-1080P-wallpaper.jpg");
-    
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
 }
