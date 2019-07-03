@@ -10,17 +10,10 @@
 </head>
 
 <body>
-    <header>
-        <h1>
-           about us
-        </h1>
-        <ul>
-            <li><a href="../homePage/homePage.html" ><img src="https://cdn2.iconfinder.com/data/icons/royal-crowns/512/royal-alphabet-crown-letter-english-h-512.png" id="homeBtn"></a></li>
-            <li><a href="../catalog/catalog.html">Catalog</a></li>
-            <li><a href="../about/about.html">About</a></li>
-            <li  id="RightBar"><a href="">Contact Us</a></li>
-        </ul>
-    </header>
+    <!-- Header Section -->
+    <?php
+        require_once '../../header/header.html';
+    ?>
 <main>
         <div class="title"><img id="title" src="../../images/f61ea9bc96d8ec4e17ca4b0654f2a268.png" alt="title"></div>
         <div id="stars">
